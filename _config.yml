@@ -1,0 +1,17 @@
+# Site settings
+title: U.S. Web Design Standards Jekyll Template
+description: U.S. Web Design Standards Jekyll Template
+baseurl: "/us-web-design-standards-jekyll-template"
+url: ""
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: [hard_wrap, tables, highlight]
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: main

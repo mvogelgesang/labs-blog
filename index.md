@@ -1,0 +1,4 @@
+---
+---
+
+{% include sample-content.md %}
