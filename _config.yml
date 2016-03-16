@@ -5,6 +5,12 @@ baseurl: "/us-web-design-standards-jekyll-template"
 url: ""
 uswds: "/assets/uswds"
 
+# Pages
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 # Build settings
 kramdown:
   hard_wrap: true
