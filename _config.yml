@@ -3,11 +3,11 @@ title: U.S. Web Design Standards Jekyll Template
 description: U.S. Web Design Standards Jekyll Template
 baseurl: "/us-web-design-standards-jekyll-template"
 url: ""
+uswds: "/assets/uswds"
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: [hard_wrap, tables, highlight]
+kramdown:
+  hard_wrap: true
 
 # Defaults
 defaults:

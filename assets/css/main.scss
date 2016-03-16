@@ -1,12 +1,10 @@
 ---
 ---
 
-@import 'all';
-
 /* Custom Styles */
 
 a:visited {
-  color: $color-primary;
+  color: #0071bc;  // $color-primary
 }
 
 ul {
@@ -14,7 +12,7 @@ ul {
 }
 
 mark {
-  background: $color-gold-lightest;
+  background: #fff1d2;  // $color-gold-lightest
 }
 
 code {
@@ -25,7 +23,7 @@ header.site-header {
   padding: 20px 0;
   font-size: 24px;
   font-weight: bold;
-  background: $color-primary;
+  background: #0071bc;  // $color-primary
   color: white;
 }
 
